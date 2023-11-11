@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+.fullscreen-bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*  */
+.container{
+    width: 1000px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(40, 43, 46, 0.767);
+    height: 90vh;
+    border: solid 5px rgb(255, 145, 0);
+    border-radius: 3%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.header ul li a:hover{
+    color: rgb(255, 145, 0);
+}
+
+
+/* main */
+
+.content_awal{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one {
+    width: 50%;
+}   
+.one h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.on p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.on p a{
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one .of{
+    padding: 30px 0px;
+    word-spacing: 3px;
+}
+.one .of a{
+    text-decoration: none;
+    color: white;
+    font-family: Comic sans MS;
+    background-color: rgb(255, 145, 0);
+    padding:  10px 20px;
+    border-radius: 3%;
+}
+.one .of a:hover{
+    background-color: rgb(255, 196, 0);
+}
+.two{
+    width: 40%;
+}
+.two img{
+    width: 90%;
+    border-radius: 10%;
+    border: solid 5px rgb(255, 145, 0);
+}
+.two i{
+    color: white;
+}
+.footer .ket{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .ket h2 a{
+    text-decoration: none;
+    padding-right: 10px ;
+    color: rgb(255, 145, 0);
+}
+.footer .ket p{
+    font-size: 20px;
+}
+
